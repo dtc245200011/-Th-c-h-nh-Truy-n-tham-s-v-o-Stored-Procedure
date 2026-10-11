@@ -1,0 +1,16 @@
+-- INOUT example for SetCounter
+SET @counter = 1;
+
+CALL SetCounter(@counter, 1);
+-- After call: @counter = 2
+
+CALL SetCounter(@counter, 1);
+-- After call: @counter = 3
+
+CALL SetCounter(@counter, 5);
+-- After call: @counter = 8
+
+SELECT @counter AS final_counter;
+final_counter
+-------------
+8
