@@ -1,0 +1,4 @@
+-- CALL getCusById(175);
+customerNumber | customerName       | contactLastName | contactFirstName | phone       | addressLine1
+---------------------------------------------------------------------------------------------------------
+175            | Gift Depot Inc.    | King            | Julie            | 2035552570  | 25593 South Bay Ln.
