@@ -1,0 +1,15 @@
+-- INOUT example for updateCustomerPhone
+-- Initial: assume customerNumber 175 exists
+SET @phone = '999-999-9999';
+CALL updateCustomerPhone(175, @phone);
+SELECT @phone AS updated_phone;
+
+updated_phone
+-------------
+999-999-9999
+
+-- Verify in table:
+SELECT customerNumber, phone FROM customers WHERE customerNumber = 175;
+customerNumber | phone
+-----------------------
+175            | 999-999-9999
