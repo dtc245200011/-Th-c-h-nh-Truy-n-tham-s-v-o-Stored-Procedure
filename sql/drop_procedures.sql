@@ -1,0 +1,8 @@
+-- Xóa các procedure nếu cần
+DROP PROCEDURE IF EXISTS findAllCustomers;
+DROP PROCEDURE IF EXISTS getCusById;
+DROP PROCEDURE IF EXISTS findCustomerByName;
+DROP PROCEDURE IF EXISTS GetCustomersCountByCity;
+DROP PROCEDURE IF EXISTS updateCustomerPhone;
+DROP PROCEDURE IF EXISTS SetCounter;
+DROP PROCEDURE IF EXISTS listCustomersByLastName;
