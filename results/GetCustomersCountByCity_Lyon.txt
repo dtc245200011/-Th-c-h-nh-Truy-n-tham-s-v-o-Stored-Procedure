@@ -1,0 +1,7 @@
+-- CALL GetCustomersCountByCity('Lyon', @total);
+-- After call:
+SELECT @total AS customers_in_Lyon;
+
+customers_in_Lyon
+-----------------
+2
